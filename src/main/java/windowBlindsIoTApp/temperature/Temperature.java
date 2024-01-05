@@ -23,5 +23,4 @@ public class Temperature implements Serializable {
     private double temperature;
     private LocalDateTime date;
 
-
 }
