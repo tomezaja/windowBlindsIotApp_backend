@@ -1,4 +1,4 @@
-package windowBlindsIoTApp.temperature;
+package windowBlindsIoTApp.temperature.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

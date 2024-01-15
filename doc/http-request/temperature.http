@@ -1,0 +1,36 @@
+POST http://localhost:8080/api/temperatures
+Content-Type: application/json
+
+{
+  "temperature": 11
+}
+###
+
+GET http://localhost:8080/api/temperatures
+
+###
+
+GET http://localhost:8080/api/temperatures?page=2&page-size=5
+
+###
+
+GET http://localhost:8080/api/temperatures/66
+
+###
+PUT http://localhost:8080/api/temperatures/6
+Content-Type: application/json
+
+{
+  "temperature": 5
+}
+
+###
+PATCH http://localhost:8080/api/temperatures/6
+Content-Type: application/json
+
+{
+  "temperature": 5
+}
+
+###
+DELETE http://localhost:8080/api/temperatures/15

@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/windowblindsiot
+    username: my_user
+    password: my_password
+    #url: jdbc:mysql://<change-datasource-host>:<change-datasource-port>/<change-datasource-database>
+    #username: <change-datasource-username>
+    #password: <change-datasource-password>
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+
